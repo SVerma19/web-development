@@ -1,0 +1,127 @@
+body {
+    color :#666666;
+    background-image: linear-gradient(to bottom, #D13E1E, #000000, #D13E1E);
+    background-color: #000000;
+    font-family: Verdana, Arial, sans-serif;
+}
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+}
+main {
+	height: 100%;
+	width: 50%;
+    display: block;
+    background-color: #FFFFFF;
+    margin-left: 260px;
+}
+img {
+	padding: 10px 10px 10px 10px;
+}
+h1 {
+	background-color: #E8EE9D;
+	color: #111111; 
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+#headline {
+	font-family: 'Helvetica Neue', sans-serif; 
+	line-height: 1.5em;
+	color: black;
+}
+h1:after {
+    content:' ';
+    display:block;
+    border: 2px solid black;
+}
+h2 {
+    background-color: #D13E1E;
+    color: #FFFFFF;
+    font-size: 35px; 
+    font-weight: medium;
+    font-family: Georiga, serif;
+    margin-bottom: 35px;
+
+    /* Outline Styling */
+    display: inline-block;
+    min-width: 150px;
+    padding: 7px 17px;
+    font-weight: 600;
+    text-align: justify;
+    -moz-box-shadow: -4px 0 0 0 #000;
+    -webkit-box-shadow: -4px 0 0 0 #000;
+    box-shadow: -4px 0 0 0 #000;
+}
+h3 {
+    color: #000000;
+    font-size: 22px; 
+    font-family: Georiga, serif;
+    margin-top: 35px;
+    margin-bottom: 0px;
+
+    /* Outline Styling */
+    display: inline-block;
+    min-width: 100px;
+    padding: 3px 10px;
+    font-weight: 600;
+    text-align: justify;
+    -moz-box-shadow: -4px 0 0 0 #000;
+    -webkit-box-shadow: -4px 0 0 0 #000;
+    box-shadow: -4px 0 0 0 #000;
+}
+nav {
+	height: 98.6%;
+	width: 17%;
+    float: left;
+    background-color: #D13E1E;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 8px;
+}
+nav a:link { color: #F9F10C }
+nav a:visited { color: #F9F10C }
+nav a:hover { color: #FFFFFF }
+
+nav ul {
+    list-style-type: none;
+    padding: 16px;
+    margin-left: 0px;
+}
+nav a {
+    text-decoration: none;
+}
+nav li {
+	margin-bottom: 15px;
+}
+a {
+	text-decoration: none
+}
+a:link { color: #D13E1E }
+a:visited { color: #D13E1E }
+a:hover { color: #E6E61C }
+footer {
+	text-align: center;
+    background-color: #FFFFFF;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+header, nav, main, footer { display: block }
+
+#wrapper {
+    width: 80%;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px #000000;
+}

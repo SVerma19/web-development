@@ -1,0 +1,119 @@
+body {
+    color :#666666;
+    font-family: Verdana, Arial, sans-serif;
+}
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+}
+main {
+	height: 100%;
+	width: 50%;
+    display: block;
+    background-color: #FFFFFF;
+    margin-left: 20%;
+}
+img {
+	padding: 10px 10px 10px 10px;
+}
+h1 {
+	color: #111111; 
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-weight: bold;
+    font-size: 75px; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+	padding: 0px;
+	margin: 0px;
+}
+#headline {
+	font-family: 'Helvetica Neue', sans-serif; 
+	line-height: 1.5em;
+	color: black;
+}
+h1:after {
+    content:' ';
+    display:block;
+    border: 2px solid black;
+}
+.header {
+    text-align: center;
+}
+h2 {
+    background-color: #2F2482;
+    color: #FFFFFF;
+    font-size: 30px; 
+    font-weight: medium;
+    font-family: Georiga, serif;
+    margin-bottom: 20px;
+
+    /* Outline Styling */
+    display: inline-block;
+    min-width: 150px;
+    padding: 7px 17px;
+    font-weight: 600;
+    text-align: justify;
+    -moz-box-shadow: -4px 0 0 0 #000;
+    -webkit-box-shadow: -4px 0 0 0 #000;
+    box-shadow: -4px 0 0 0 #000;
+}
+h3 {
+    color: #000000;
+    font-size: 22px; 
+    font-family: Georiga, serif;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+    /* Outline Styling */
+    display: inline-block;
+    min-width: 100px;
+    padding: 3px 10px;
+    font-weight: 600;
+    text-align: justify;
+    -moz-box-shadow: -4px 0 0 0 #000;
+    -webkit-box-shadow: -4px 0 0 0 #000;
+    box-shadow: -4px 0 0 0 #000;
+}
+nav {
+	height: 100%;
+	width: 15%;
+    float: left;
+    background-color: #2F2482;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 8px;
+}
+nav a:link { color: #F64C72 }
+nav a:visited { color: #F64C72 }
+nav a:hover { color: #FFFFFF }
+nav ul {
+    list-style-type: none;
+    padding: 16px;
+    margin-left: 0px;
+}
+nav a {
+    text-decoration: none;
+}
+nav li {
+	margin-bottom: 15px;
+}
+article {
+    position: relative;
+    right: 2%;
+    margin-top: 28%;
+}
+p {
+    margin-bottom: 5px;
+}
+footer {
+	text-align: center;
+    background-color: #FFFFFF;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+header, nav, main, footer { display: block }
